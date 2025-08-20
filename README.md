@@ -1,7 +1,5 @@
 # Proyecto de Analytics: E-commerce (Python + SQL + Power BI)
 
-Repositorio listo para presentar en GitHub. Incluye datos sintéticos realistas (2024-2025), proceso de limpieza en Python, esquema y consultas SQL, y guía para construir un dashboard en Power BI.
-
 ## Estructura
 ```
 .
