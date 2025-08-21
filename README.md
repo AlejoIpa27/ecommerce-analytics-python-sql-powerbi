@@ -1,37 +1,33 @@
-# Proyecto de Analytics: E-commerce (Python + SQL + Power BI)
+📊 Proyecto de Analytics: E-commerce (Python + SQL + Power BI)
 
-## Estructura
-```
+Este proyecto demuestra cómo integré Python, SQL y Power BI para transformar datos crudos de un e-commerce en insights accionables de negocio.
+
+🎯 Objetivo
+
+Analizar la información de clientes, productos y ventas para identificar métricas clave, tendencias y patrones de compra, y presentarlos en un dashboard interactivo para la toma de decisiones.
+
+🔧 Tecnologías utilizadas
+
+Python: Limpieza y preparación de datos (Pandas, NumPy, Jupyter).
+
+SQL: Modelado de base de datos y consultas analíticas (joins, subqueries, KPIs).
+
+Power BI: Visualización de datos, creación de dashboards y medidas DAX.
+
+📈 Resultados destacados
+
+Construcción de un modelo de datos a partir de ventas, clientes y productos.
+
+Identificación de tendencias de ventas mensuales y productos más rentables.
+
+Segmentación de clientes y análisis de repeat rate y Customer Lifetime Value (CLV).
+
+Creación de un dashboard interactivo en Power BI con métricas clave de negocio.
+
+📂 Estructura del proyecto
 .
-├── data
-│   ├── raw/              # CSV crudos
-│   └── processed/        # CSV limpios/listos para BI/SQL
-├── notebooks
-│   └── 01_limpieza_y_eda.ipynb
-├── sql
-│   ├── schema.sql
-│   └── queries.sql
-├── powerbi
-│   ├── README.md
-│   ├── measures_dax.txt
-│   └── power_query_fact_sales.m
-├── assets
-│   └── (coloca screenshots del dashboard)
-├── LICENSE
-└── README.md
-```
-
-## Setup rápido
-1. **Python** (3.10+):
-   ```bash
-   pip install pandas numpy jupyter nbformat
-   ```
-2. Ejecutá el notebook `notebooks/01_limpieza_y_eda.ipynb` para generar `data/processed/fact_sales.csv` y tablas de dimensión.
-3. **SQL**: Importá `schema.sql` y cargá los CSVs procesados en tus tablas.
-4. **Power BI**: Seguí `powerbi/README.md` y las medidas en `measures_dax.txt`.
-
-## Consultas destacadas (SQL)
-- Revenue mensual, top productos, revenue por canal x medio de pago, CLV simple, repeat rate.
-
-## Licencia
-MIT
+├── data/raw/            # Datos originales (CSV crudos)
+├── notebooks/           # Notebook de limpieza y exploración de datos
+├── sql/                 # Esquema y consultas SQL
+├── powerbi/             # Dashboard, medidas DAX y transformaciones en Power Query
+└── assets/              # Screenshots del dashboard
