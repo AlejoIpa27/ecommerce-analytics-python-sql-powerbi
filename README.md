@@ -21,8 +21,10 @@ Analizar la información de clientes, productos y ventas para identificar métri
 
 ## Estructura del proyecto
 
-└── data/raw/ # Datos originales (CSV crudos)
-└── notebooks/ # Notebook de limpieza y exploración de datos
-└── sql/ # Esquema y consultas SQL
-└── powerbi/ # Dashboard, medidas DAX y transformaciones en Power Query
-└── assets/ # Screenshots del dashboard
+├── data/
+│   └── raw/                 # Datos originales (CSV crudos)
+├── notebooks/              # Notebook de limpieza y exploración de datos (Python)
+├── sql/                    # Esquema y consultas SQL (joins, KPIs, segmentación)
+├── powerbi/                # Dashboard interactivo, medidas DAX, Power Query
+├── assets/                 # Screenshots del dashboard y visualizaciones
+└── README.md               # Descripción del proyecto, objetivos y resultados
